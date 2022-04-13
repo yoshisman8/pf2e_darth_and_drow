@@ -1,0 +1,86 @@
+{
+    "name": "pf2e_darth_and_drow",
+    "title": "PF2E - Darth & Drow's Brewery",
+    "description": "A collection of Homebrew Classes, Feats, Mechanics and Tweaks for Pathfinder 2nd edition",
+    "author": "Vyklade",
+    "version": "0.1.0",
+    "compatibleCoreVersion": "9",
+    "minimumCoreVersion": "9",
+    "minimumSystemVersion": "3.7.2",
+    "type": "module",
+    "systems": ["pf2e"],
+    "packs": [
+        {
+            "name": "harrower-actions-and-spells",
+            "label": "Harrower Actions and Spells",
+            "system": "pf2e",
+            "path": "packs/harrower-actions-and-spells.db",
+            "entity": "Item",
+            "module": "pf2e_darth_and_drow"
+        },
+        {
+            "name": "harrower-class-and-features",
+            "label": "Harrower Class and Features",
+            "system": "pf2e",
+            "path": "packs/harrower-class-and-features.db",
+            "entity": "Item",
+            "module": "pf2e_darth_and_drow"
+        },
+        {
+            "name": "harrower-macros",
+            "label": "Harrower Macros",
+            "system": "pf2e",
+            "path": "packs/harrower-macros.db",
+            "entity": "Macro",
+            "module": "pf2e_darth_and_drow"
+        }
+    ],
+	"flags": {
+		"pf2e_darth_and_drow": {
+			"pf2e-homebrew": {
+				"featTraits": {
+					"harrower": {
+						"label":"Harrower",
+						"description":"<p>This feat, spell or action is related to the Harrower class.</p>"
+					},
+					"dire": {
+						"label":"Dire",
+						"description":"<p>Dire actions require danger as a catalyst, and are only effective in Encounter Mode where the threads of fate become less certain and more susceptible to your manipulation.</p>"
+					},
+					"cardplay": {
+						"label":"Cardplay",
+						"description":"<p>Cardplay actions draw power from a Harrow Card and invoke its legend upon reality. You can perform only one Cardplay action per round.</p>"
+					}
+				  },
+				  "spellTraits": {
+					"harrower": {
+						"label":"Harrower",
+						"description":"<p>This feat, spell or action is related to the Harrower class.</p>"
+					},
+					"cardplay": {
+						"label":"Cardplay",
+						"description":"<p>Cardplay actions draw power from a Harrow Card and invoke its legend upon reality. You can perform only one Cardplay action per round.</p>"
+					}
+				  },
+				  "weaponTraits":{
+					  "spell-foci":"Spell Foci"
+				  },
+				  "weaponGroups":{
+					  "spell-foci":"Spell Foci"
+				  },
+				  "baseWeapons":{
+					  "spell-foci":"Spell Foci"
+				  },
+				  "equipmentTraits": {
+					"spell-foci": {
+					  "label": "Spell Foci",
+					  "description": "<p>A soekk Foci is a special held item which enhances your Spellcasting.</p>"
+					}
+				  }
+			}
+		}
+	},
+	"url": "https://www.patreon.com/user?u=70815503",
+	"manifest": "https://www.dropbox.com/s/w3ccx6ko5enup7n/module.json?dl=1",
+	"download": "https://www.dropbox.com/s/2zdovor648cqbeb/pf2e_darth_and_drow.zip?dl=1"
+}
