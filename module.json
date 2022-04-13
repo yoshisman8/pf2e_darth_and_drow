@@ -3,7 +3,7 @@
     "title": "PF2E - Darth & Drow's Brewery",
     "description": "A collection of Homebrew Classes, Feats, Mechanics and Tweaks for Pathfinder 2nd edition",
     "author": "Vyklade",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "compatibleCoreVersion": "9",
     "minimumCoreVersion": "9",
     "minimumSystemVersion": "3.7.2",
@@ -74,7 +74,7 @@
 				  "equipmentTraits": {
 					"spell-foci": {
 					  "label": "Spell Foci",
-					  "description": "<p>A soekk Foci is a special held item which enhances your Spellcasting.</p>"
+					  "description": "<p>A spell Foci is a special held item which enhances your Spellcasting.</p>"
 					}
 				  }
 			}
