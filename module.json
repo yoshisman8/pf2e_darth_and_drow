@@ -1,5 +1,5 @@
 {
-    "name": "pf2e_darth_and_drow",
+    "name": "pf2e-darth-and-drow",
     "title": "PF2E - Darth & Drow's Brewery",
     "description": "<p>A collection of Homebrew Classes, Feats, Mechanics and Tweaks for Pathfinder 2nd edition</p></p><p>Support us on <a href='https://www.patreon.com/user?u=70815503'>Patreon</a> or <a href='https://ko-fi.com/helpfuldrow'>Kofi</a>.<p>",
     "author": "Vyklade",
@@ -16,7 +16,7 @@
             "system": "pf2e",
             "path": "packs/harrower-actions-and-spells.db",
             "entity": "Item",
-            "module": "pf2e_darth_and_drow"
+            "module": "pf2e-darth-and-drow"
         },
         {
             "name": "harrower-class-and-features",
@@ -24,7 +24,7 @@
             "system": "pf2e",
             "path": "packs/harrower-class-and-features.db",
             "entity": "Item",
-            "module": "pf2e_darth_and_drow"
+            "module": "pf2e-darth-and-drow"
         },
         {
             "name": "harrower-macros",
@@ -32,11 +32,11 @@
             "system": "pf2e",
             "path": "packs/harrower-macros.db",
             "entity": "Macro",
-            "module": "pf2e_darth_and_drow"
+            "module": "pf2e-darth-and-drow"
         }
     ],
 	"flags": {
-		"pf2e_darth_and_drow": {
+		"pf2e-darth-and-drow": {
 			"pf2e-homebrew": {
 				"featTraits": {
 					"harrower": {
@@ -81,6 +81,6 @@
 		}
 	},
 	"url": "https://www.patreon.com/user?u=70815503",
-	"manifest": "https://raw.githubusercontent.com/yoshisman8/pf2e_darth_and_drow/main/module.json",
-	"download": "https://github.com/yoshisman8/pf2e_darth_and_drow/archive/refs/heads/main.zip"
+	"manifest": "https://raw.githubusercontent.com/yoshisman8/pf2e-darth-and-drow/main/module.json",
+	"download": "https://github.com/yoshisman8/pf2e-darth-and-drow/archive/refs/heads/main.zip"
 }
